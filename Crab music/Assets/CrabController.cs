@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CrabController : MonoBehaviour
 {
+
     void Start()
     {
-        
     }
     
     void Update()
