@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class notesController : MonoBehaviour
 {
+    GameObject crab; 
+
     void Start()
     {
-        
+        this.crab = GameObject.Find("Crab");
     }
     
     void Update()
@@ -16,6 +18,22 @@ public class notesController : MonoBehaviour
         if(transform.position.y < -5.0f)
         {
             Destroy(gameObject);
+        }
+
+
+        Vector2 p1 = transform.position;
+        Vector2 p2 = this.crab.transform.position;
+        Vector2 dir = p1 - p2;
+        float d = dir.magnitude;
+        float r1 = 0.5f;
+        float r2 = 1.0f;
+
+        if (d < r1 + r2)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
