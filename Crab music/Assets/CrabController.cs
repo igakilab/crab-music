@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CrabController : MonoBehaviour
 {
+    GameObject scoreText;
+
+   
 
     void Start()
     {
@@ -19,5 +22,8 @@ public class CrabController : MonoBehaviour
         {
             transform.Translate(0.1f, 0, 0);
         }
+    
     }
+
+   
 }

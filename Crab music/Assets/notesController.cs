@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class notesController : MonoBehaviour
 {
-    GameObject crab; 
+    GameObject crab;
+
 
     void Start()
     {
@@ -33,7 +34,9 @@ public class notesController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Destroy(gameObject);
+                GameObject.Find("Canvas").GetComponent<UIController> ().AddScore();
             }
         }
     }
+
 }
