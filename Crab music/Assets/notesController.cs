@@ -1,3 +1,4 @@
+//‰¹•„‚Ì“®‚«
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,22 +6,15 @@ using UnityEngine;
 public class notesController : MonoBehaviour
 {
     GameObject crab;
-
-
-    void Start()
+    void Fallnote()
     {
-        this.crab = GameObject.Find("Crab");
-    }
-    
-    void Update()
-    {
-        transform.Translate(0,-0.1f,0);
+        gameObject.SetActive(true);//gameObject‚Ì•\Ž¦
+        transform.Translate(0, -0.1f, 0);
 
-        if(transform.position.y < -5.0f)
+        if (transform.position.y < -5.0f)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
-
 
         Vector2 p1 = transform.position;
         Vector2 p2 = this.crab.transform.position;
@@ -33,10 +27,21 @@ public class notesController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Destroy(gameObject);
-                GameObject.Find("Canvas").GetComponent<UIController> ().AddScore();
+                gameObject.SetActive(false); //gameObject‚Ì”ñ•\Ž¦
+                GameObject.Find("Canvas").GetComponent<UIController>().AddScore();
             }
         }
+    }
+
+    void Start()
+    {
+        this.crab = GameObject.Find("Crab");
+    }
+
+    void Update()
+    {
+        Invoke("Fallnote", 0.0f);
+        Invoke("Fallnote", 6.0f);
     }
 
 }
