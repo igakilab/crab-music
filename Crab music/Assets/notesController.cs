@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class notesController : MonoBehaviour
 {
-    GameObject crab; 
+    GameObject crab;
+    AudioSource sound01;
 
     void Start()
     {
         this.crab = GameObject.Find("Crab");
+        sound01 = GetComponent<AudioSource>();
     }
     
     void Update()
     {
-        transform.Translate(0,-0.1f,0);
+        transform.Translate(0,-0.05f,0);
 
-        if(transform.position.y < -5.0f)
+        if(transform.position.y < -7f)
         {
             Destroy(gameObject);
         }
@@ -32,7 +34,8 @@ public class notesController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Destroy(gameObject);
+
+                sound01.PlayOneShot(sound01.clip); 
             }
         }
     }
