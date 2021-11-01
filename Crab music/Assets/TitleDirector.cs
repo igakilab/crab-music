@@ -9,7 +9,7 @@ public class TitleDirector : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("CountDown");
         }
     }
 }
