@@ -5,12 +5,17 @@ using System.Collections;
 public class UIController : MonoBehaviour
 {
 
-    int score = 0;
+    public static int score = 0;
     GameObject scoreText;
 
     public void AddScore()
     {
-        this.score += 100;
+        score += 100;
+    }
+
+    public static int getscore()
+    {
+        return score;
     }
 
     void Start()
