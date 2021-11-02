@@ -16,11 +16,11 @@ public class CrabController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(-0.1f, 0, 0);
+            transform.Translate(-0.15f, 0, 0);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(0.1f, 0, 0);
+            transform.Translate(0.11f, 0, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))

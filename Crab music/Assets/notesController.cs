@@ -19,7 +19,7 @@ public class notesController : MonoBehaviour
         Vector2 p2 = this.crab.transform.position;
         Vector2 dir = p1 - p2;
         float d = dir.magnitude;
-        float r1 = 0.5f;
+        float r1 = 0.01f;
         float r2 = 1.5f;
 
         if (d < r1 + r2)
