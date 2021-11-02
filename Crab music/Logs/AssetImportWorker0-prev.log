@@ -1,126 +1,192 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1288; Version 2004; 64bit' Language: 'ja' Physical Memory: 7828 MB
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 7939 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\yukito\Desktop\2020.3.16f1\Editor\Unity.exe
+C:\unity\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/yukito/Documents/GitHub/crab-music/Crab music
+C:/Users/多田 大晟/Documents/Github/crab-music/Crab music
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52118
-Successfully changed project path to: C:/Users/yukito/Documents/GitHub/crab-music/Crab music
-C:/Users/yukito/Documents/GitHub/crab-music/Crab music
+60632
+Successfully changed project path to: C:/Users/多田 大晟/Documents/Github/crab-music/Crab music
+C:/Users/多田 大晟/Documents/Github/crab-music/Crab music
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 130.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
-[Subsystems] Discovering subsystems at path C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/yukito/Documents/GitHub/crab-music/Crab music/Assets
+[Subsystems] Discovering subsystems at path C:/unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/多田 大晟/Documents/Github/crab-music/Crab music/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
     Vendor:   
-    VRAM:     3914 MB
-    Driver:   27.20.100.9664
+    VRAM:     3969 MB
+    Driver:   24.20.100.6292
 Initialize mono
-Mono path[0] = 'C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Mono path[0] = 'C:/unity/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/yukito/Desktop/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007354 seconds.
+Register platform support module: C:/unity/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002200 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 135.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.465 seconds
+- Completed reload, in  2.001 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3466ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (2001ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1194ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (184ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012623 seconds.
+Registered in 0.005750 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138ABE9010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384B36FB0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388B20A30 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384E1C010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138AC0DC20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138AC0DC20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF3020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389E67290 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213888AA030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389FB0020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389FDE230 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389F35A40 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389FDE230 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A86D050 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F08630 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A1DA020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138AC15C30 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213895E1030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389142020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389F35A40 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213889091F0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A881A60 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213889083F0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138960E020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213894EBC30 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FC6D20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384BCF770 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389F35A40 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213895E1030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.439 seconds
+- Completed reload, in  1.181 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3442ms)
-		BeginReloadAssembly (393ms)
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (2834ms)
-			LoadAssemblies (295ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (861ms)
+			SetupTypeCache (299ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1205ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (813ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.3 MB.
 System memory in use after: 93.4 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2539.
-Total: 3.331000 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.060000 ms MarkObjects: 3.044600 ms  DeleteObjects: 0.069900 ms)
+Total: 3.951700 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.057100 ms MarkObjects: 3.506800 ms  DeleteObjects: 0.124700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,65 +201,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/NewBehaviourScript.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewBehaviourScript.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e27e796d67ca2a7372f4a962dd42a5') in 0.053139 seconds 
-  Import took 0.059278 seconds .
+  path: Assets/TitleScene.unity
+  artifactKey: Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TitleScene.unity using Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee4b8cba234add3d4df5cd97ed501f') in 0.025457 seconds 
+  Import took 0.030443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.798788 seconds.
-  path: Assets/TimerController.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TimerController.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6af055098cadfdaec8e76afa9de4e62') in 0.006654 seconds 
-  Import took 0.014688 seconds .
+  Time since last request: 0.041901 seconds.
+  path: Assets/TitleScene.unity
+  artifactKey: Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TitleScene.unity using Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee4b8cba234add3d4df5cd97ed501f') in 0.004111 seconds 
+  Import took 0.008998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.006667 seconds.
+  path: Assets/GameScene.unity
+  artifactKey: Guid(d6471c09f1591384bb6eb2e441d7bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene.unity using Guid(d6471c09f1591384bb6eb2e441d7bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d0a5d3b3ac64c9c8d420a9c3ac7ba') in 0.010555 seconds 
+  Import took 0.015887 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012237 seconds.
+Registered in 0.012845 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138ABE9010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E2639F0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D050080 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A6D8010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138C0D8040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A7A8850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A86D050 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138C0D8040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213894A4020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B163420 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384DD5A20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138960E020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADF8030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D652010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DACC010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B1F1630 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213890EE7B0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B8D2650 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D050080 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFECD0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389E5DC90 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.649 seconds
+- Completed reload, in  1.092 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2649ms)
-		BeginReloadAssembly (287ms)
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (2191ms)
-			LoadAssemblies (244ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (723ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (853ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (649ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.8 MB.
 System memory in use after: 92.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 5.433500 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.134400 ms MarkObjects: 4.971600 ms  DeleteObjects: 0.042800 ms)
+Total: 3.801900 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.059400 ms MarkObjects: 3.434900 ms  DeleteObjects: 0.059500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -209,49 +349,115 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011091 seconds.
+Registered in 0.004678 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138ABE9010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213890A79F0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFFC070 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A6D8010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B7DB030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138C0D8040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B803060 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B1EF230 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B7DB030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138C0D8040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D19A030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388E3A380 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384DD5A20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389FB0020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADF8030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D3F8010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B1EF230 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384E1D4F0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389E30080 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BEAC020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFEB00 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.904 seconds
+- Completed reload, in  1.173 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2905ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2457ms)
-			LoadAssemblies (250ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (749ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (1053ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (827ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.8 MB.
 System memory in use after: 92.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2545.
-Total: 7.512300 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.144000 ms MarkObjects: 7.003700 ms  DeleteObjects: 0.045500 ms)
+Total: 3.947300 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.060900 ms MarkObjects: 3.619000 ms  DeleteObjects: 0.026300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -266,82 +472,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.798468 seconds.
-  path: Assets/TimerController.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TimerController.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eee05d3c1be8440613a9cde5aed92f4') in 0.012178 seconds 
-  Import took 0.020762 seconds .
+  Time since last request: 333.247229 seconds.
+  path: Assets/notesController4.cs
+  artifactKey: Guid(d680ae07e34912a4abfe3efe0f70af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController4.cs using Guid(d680ae07e34912a4abfe3efe0f70af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38deb2ea6451de4a7c43b5c049ba25') in 0.063253 seconds 
+  Import took 0.068652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 421.761702 seconds.
-  path: Assets/GameScene.unity
-  artifactKey: Guid(d6471c09f1591384bb6eb2e441d7bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameScene.unity using Guid(d6471c09f1591384bb6eb2e441d7bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2223e1fff3bc5e3c578620077eeb1b58') in 0.024158 seconds 
-  Import took 0.033480 seconds .
+  Time since last request: 0.685681 seconds.
+  path: Assets/notesController.cs
+  artifactKey: Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController.cs using Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebcdf2d1ed0881004d9ae2355588d06') in 0.014419 seconds 
+  Import took 0.022025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.905735 seconds.
-  path: Assets/TitleScene.unity
-  artifactKey: Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TitleScene.unity using Guid(cb1d880bd2d48124098be6456f7b5c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5f8ff4a48793e94e4b1418bdc3c590') in 0.006903 seconds 
-  Import took 0.014483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.996678 seconds.
-  path: Assets/CountDown.unity
-  artifactKey: Guid(2853d6925b22c844dbfdb3040812c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CountDown.unity using Guid(2853d6925b22c844dbfdb3040812c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e371a76aeea8a49d1df8413f56160fb') in 0.006712 seconds 
-  Import took 0.015058 seconds .
+  Time since last request: 0.001394 seconds.
+  path: Assets/notesController.cs
+  artifactKey: Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController.cs using Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebcdf2d1ed0881004d9ae2355588d06') in 0.004673 seconds 
+  Import took 0.009845 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011420 seconds.
+Registered in 0.009521 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138D082030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E006F70 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3401C0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213896B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213895BA020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A86D050 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFE6030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D1B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384DD5A20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DD3F030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388E33B10 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D3F8010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138902BFE0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138960E020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138AC0F220 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D1B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFECD0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.832 seconds
+- Completed reload, in  1.154 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2833ms)
-		BeginReloadAssembly (276ms)
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (2380ms)
-			LoadAssemblies (252ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (743ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (985ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (758ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
+System memory in use before: 92.8 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2548.
-Total: 7.019500 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.254500 ms MarkObjects: 6.412400 ms  DeleteObjects: 0.026900 ms)
+Total: 3.554300 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.065400 ms MarkObjects: 3.199000 ms  DeleteObjects: 0.037000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -356,58 +620,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.054452 seconds.
-  path: Assets/TitleDirector.cs
-  artifactKey: Guid(7576a4f277c05a74287a09a4f93f922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TitleDirector.cs using Guid(7576a4f277c05a74287a09a4f93f922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3aa64f6897c1071e93f04980b17ae5') in 0.051544 seconds 
-  Import took 0.059326 seconds .
+  Time since last request: 34.190495 seconds.
+  path: Assets/notesController.cs
+  artifactKey: Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController.cs using Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97de2d3bb34bedbb8e71730afe9bd58') in 0.006444 seconds 
+  Import took 0.015407 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012083 seconds.
+Registered in 0.007093 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138D082030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E006F70 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384D99D80 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388B16020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213896B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADF8030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388B16020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389580510 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADF8030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFE6030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389E70A20 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADF8030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DD3F030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388E33B10 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BE15020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138902E420 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E72FE60 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A55D620 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFFB010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFECD0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.635 seconds
+- Completed reload, in  1.225 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2636ms)
-		BeginReloadAssembly (252ms)
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2234ms)
-			LoadAssemblies (226ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (661ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (957ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (754ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 7.091100 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.138200 ms MarkObjects: 6.609400 ms  DeleteObjects: 0.044500 ms)
+Total: 3.487400 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.104600 ms MarkObjects: 3.039200 ms  DeleteObjects: 0.060500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -421,51 +751,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 22.628553 seconds.
+  path: Assets/notesController.cs
+  artifactKey: Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController.cs using Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0350622c86b399e83230b2e14eba42f4') in 0.006235 seconds 
+  Import took 0.015766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078396 seconds.
+  path: Assets/notesController.cs
+  artifactKey: Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/notesController.cs using Guid(8168f8deacbaa8a43ad937b755fb4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0350622c86b399e83230b2e14eba42f4') in 0.003335 seconds 
+  Import took 0.008033 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012310 seconds.
+Registered in 0.004739 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138DD3F030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E009450 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138875AA30 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E981D70 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BF32020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213896B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B369040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B72B010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BF32020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BDDD010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213895A5120 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B369040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFE6030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BE04020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D082030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B246010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138960E020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138875AA30 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389028980 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E72FE60 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A55D620 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BE04020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFE760 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FB9020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.830 seconds
+- Completed reload, in  1.165 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2831ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (2403ms)
-			LoadAssemblies (240ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (714ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (1047ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (417ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2554.
-Total: 6.826500 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.143000 ms MarkObjects: 6.358800 ms  DeleteObjects: 0.027800 ms)
+Total: 4.654600 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.087600 ms MarkObjects: 4.236600 ms  DeleteObjects: 0.025600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -481,49 +893,115 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011843 seconds.
+Registered in 0.004472 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138DD3F030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BE95AF0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389045010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BFF21E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213894D8020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213896B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A274020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213894D8020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389580510 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389045010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D19A030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139ADD6590 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FC1030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D082030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B246010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D652010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389045010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388EF1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138902DB10 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E72FE60 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A55D620 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139ADD6590 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFECD0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389045010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A274020 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.843 seconds
+- Completed reload, in  1.183 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2844ms)
-		BeginReloadAssembly (269ms)
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2397ms)
-			LoadAssemblies (249ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (741ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (1016ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (791ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2557.
-Total: 5.394200 ms (FindLiveObjects: 0.273800 ms CreateObjectMapping: 0.103200 ms MarkObjects: 4.983400 ms  DeleteObjects: 0.031900 ms)
+Total: 3.558600 ms (FindLiveObjects: 0.236100 ms CreateObjectMapping: 0.072600 ms MarkObjects: 3.226300 ms  DeleteObjects: 0.022300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -537,373 +1015,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 208.440538 seconds.
-  path: Assets/TimerController.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TimerController.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab7ad6ef381c70e683ed1fc62077de3') in 0.007528 seconds 
-  Import took 0.012448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000926 seconds.
-  path: Assets/TimerController.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TimerController.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab7ad6ef381c70e683ed1fc62077de3') in 0.005798 seconds 
-  Import took 0.012943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.924881 seconds.
-  path: Assets/TimerController.cs
-  artifactKey: Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TimerController.cs using Guid(fb327395c1bcc6048a5c2d31008c0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c532b1f28d65e9afee554cefc1b18e6') in 0.008528 seconds 
-  Import took 0.020095 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008606 seconds.
+Registered in 0.005769 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002138DD3F030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E2602A0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138EB657A0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213896B1010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389580510 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138B152010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DA84010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D19A030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139ADD6590 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021384FC1030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D082030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213894EE050 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138D652010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138A448030 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138DACC010 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E3C2850 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021389029290 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138E72FE60 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139ADD6590 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138ADFEB00 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021388F9E3E0 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002139AE01320 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002138BAE3040 doesn't match image C:\Users\多田 大晟\Documents\Github\crab-music\Crab music\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.954 seconds
+- Completed reload, in  1.139 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2955ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2512ms)
-			LoadAssemblies (254ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (715ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (1123ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (895ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 7.639900 ms (FindLiveObjects: 0.549000 ms CreateObjectMapping: 0.281500 ms MarkObjects: 6.779100 ms  DeleteObjects: 0.026800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.806 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2807ms)
-		BeginReloadAssembly (269ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (2360ms)
-			LoadAssemblies (259ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (698ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (1037ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (811ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 93.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 7.641500 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.150200 ms MarkObjects: 7.059600 ms  DeleteObjects: 0.041100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013682 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.690 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2691ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2315ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (679ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (1042ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (812ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 93.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2566.
-Total: 7.070900 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.212800 ms MarkObjects: 6.390500 ms  DeleteObjects: 0.052200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010545 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.970 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2971ms)
-		BeginReloadAssembly (240ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (2552ms)
-			LoadAssemblies (240ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (760ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (1061ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (832ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 93.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2569.
-Total: 7.196000 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.136100 ms MarkObjects: 6.702200 ms  DeleteObjects: 0.047100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 132.638777 seconds.
-  path: Assets/CountDown.unity
-  artifactKey: Guid(2853d6925b22c844dbfdb3040812c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CountDown.unity using Guid(2853d6925b22c844dbfdb3040812c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408b1841a82de5aa17d13a35b83f78a2') in 0.028594 seconds 
-  Import took 0.037057 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013116 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.855 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2856ms)
-		BeginReloadAssembly (240ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2440ms)
-			LoadAssemblies (228ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (719ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1087ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (840ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.0 MB.
-System memory in use after: 93.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2572.
-Total: 7.739800 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.167800 ms MarkObjects: 7.208700 ms  DeleteObjects: 0.044600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013010 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.911 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2913ms)
-		BeginReloadAssembly (279ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (2454ms)
-			LoadAssemblies (256ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (727ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1067ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (833ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.0 MB.
-System memory in use after: 93.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 6.843100 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.134900 ms MarkObjects: 6.338200 ms  DeleteObjects: 0.066800 ms)
+Total: 3.520900 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.068000 ms MarkObjects: 3.144900 ms  DeleteObjects: 0.058400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

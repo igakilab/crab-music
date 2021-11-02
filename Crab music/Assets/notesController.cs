@@ -8,12 +8,11 @@ public class notesController : MonoBehaviour
     GameObject crab;
     void Fallnote()
     {
-        gameObject.SetActive(true);//gameObject‚Ì•\Ž¦
         transform.Translate(0, -0.1f, 0);
 
         if (transform.position.y < -5.0f)
         {
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
 
         Vector2 p1 = transform.position;
@@ -21,13 +20,13 @@ public class notesController : MonoBehaviour
         Vector2 dir = p1 - p2;
         float d = dir.magnitude;
         float r1 = 0.5f;
-        float r2 = 1.0f;
+        float r2 = 1.5f;
 
         if (d < r1 + r2)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                gameObject.SetActive(false); //gameObject‚Ì”ñ•\Ž¦
+                Destroy(gameObject); 
                 GameObject.Find("Canvas").GetComponent<UIController>().AddScore();
             }
         }
@@ -41,7 +40,6 @@ public class notesController : MonoBehaviour
     void Update()
     {
         Invoke("Fallnote", 0.0f);
-        Invoke("Fallnote", 6.0f);
     }
 
 }
