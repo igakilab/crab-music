@@ -40,9 +40,7 @@ Web GLのビルドファイルを展開するフォルダを求められるの�
 
 展開できれば下図のようなファイルが追加される(この図では別のリポジトリにビルドファイルを展開している) 
 
-グラフィカル ユーザー インターフェイス, アプリケーション, テーブル, Excel
-
-自動的に生成された説明 
+![スクリーンショット (49)](https://user-images.githubusercontent.com/73092881/145348082-bf7e835f-7178-400d-a5fe-81844ba8e78c.png)
 
 Netlify(https://app.netlify.com/) にアクセスする 
 
@@ -58,9 +56,12 @@ Netlify(https://app.netlify.com/) にアクセスする
 
 5  1～4が完了すれば下図のような画面が出るはず(Sites内は人によって異なる) 
 
+![スクリーンショット (45)](https://user-images.githubusercontent.com/73092881/145348319-226bc095-221e-4ca5-8e75-af25a76cc8a8.png)
+
 アクセス出来たらSites内の「New site from Git」をクリック 
 
 次にGitHubをクリック 
+![スクリーンショット (44)](https://user-images.githubusercontent.com/73092881/145348469-9f5e2ab7-1f52-4e4f-867b-1bc790db2f64.png)
 
 ビルドしたCRAB MUSICがあるアカウント、リポジトリを選択。 
 
@@ -68,6 +69,7 @@ Netlify(https://app.netlify.com/) にアクセスする
 選択したらDeploy siteを選択する(ほかの項目は触らなくてよい)。 
 
 下図のような画面が出たらその中にあるリンクをクリックするとWebGLにゲームがアップロードされていることが確認できる。 
+![スクリーンショット (48)](https://user-images.githubusercontent.com/73092881/145348446-12168586-454f-4122-b8f5-a6d2bcd5de18.png)
 
 <hr/>
 
