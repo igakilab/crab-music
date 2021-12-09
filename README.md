@@ -21,7 +21,8 @@ FileからBuild Settingsを開いて、TitleScene,CountDown,GameScene,GameOver�
 
 ※Scene In Build内に追加するには TitleScene.unity, CountDown.unity,GameScene.unity,GameOver.unityの4つのファイルを起動しておいてからAdd Open Scenesをクリックすれば追加される 
 
- 
+ ![bandicam 2021-12-09 15-13-57-924](https://user-images.githubusercontent.com/72372407/145347095-c8db2899-7743-4ad3-b0d5-0f93f704fc1e.jpg)
+
 
 Web GLのビルドファイルを展開するフォルダを求められるので、以下の条件を満たす任意のフォルダを選択する 
 
