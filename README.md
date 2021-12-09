@@ -57,4 +57,4 @@ Netlify(https://app.netlify.com/) にアクセスする
 （今回でいうigakilabのアカウント内にあるcrab-music-playを選択） 
 選択したらDeploy siteを選択する(ほかの項目は触らなくてよい)。 
 
-下図のような画面が出たらその中にあるリンク(今回でいうhttps://elated-montalcini-0ac8aa.netlify.app)をクリックするとWebGLにゲームがアップロードされていることが確認できる。 
+下図のような画面が出たらその中にあるリンクをクリックするとWebGLにゲームがアップロードされていることが確認できる。 
