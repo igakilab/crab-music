@@ -25,7 +25,7 @@ Unityの編集画面が出たらEdit内にあるProject Settingを選びその�
 
  ![bandicam 2021-12-09 15-13-11-034](https://user-images.githubusercontent.com/72372407/145347219-979aae5d-fe25-4848-a376-c8939aa63025.jpg)
 
-FileからBuild Settingsを開いて、TitleScene,CountDown,GameScene,GameOverの四つをScene In Build内に追加してチェック欄にチェックマークを付けてからWeb GLの項目からBuild And Runをクリックする。 
+FileからBuild Settingsを開いて、TitleScene,CountDown,GameScene,GameOverの四つをScene In Build内に追加してチェック欄にチェックマークを付けてからWeb GLの項目からSwitch Platformをクリックした後、Build And Runをクリックする。 
 
 ※Scene In Build内に追加するには TitleScene.unity, CountDown.unity,GameScene.unity,GameOver.unityの4つのファイルを起動しておいてからAdd Open Scenesをクリックすれば追加される 
 
