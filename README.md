@@ -1,5 +1,5 @@
 # crab-music
-<size=190>SetUpManual</size>
+<h1>SetUpManual</h1>
 Download - Unity (unity3d.com)から最新版のUnity hubをダウンロードする 
 Unity Hubからインストールの項目を選び、Unity 2020.3.16f1をインストールする 
 
