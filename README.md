@@ -64,8 +64,6 @@ Netlify(https://app.netlify.com/) にアクセスする
 ![スクリーンショット (44)](https://user-images.githubusercontent.com/73092881/145348469-9f5e2ab7-1f52-4e4f-867b-1bc790db2f64.png)
 
 ビルドしたCRAB MUSICがあるアカウント、リポジトリを選択。 
-
-（今回でいうigakilabのアカウント内にあるcrab-music-playを選択） 
 選択したらDeploy siteを選択する(ほかの項目は触らなくてよい)。 
 
 下図のような画面が出たらその中にあるリンクをクリックするとWebGLにゲームがアップロードされていることが確認できる。 
